@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-FILE = Path("transactions.jso")
+FILE = Path("transactions.json")
 
 def load_data():
     if FILE.exists():
